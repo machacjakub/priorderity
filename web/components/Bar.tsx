@@ -13,6 +13,7 @@ const getColor = ( percentage: number ) => {
 	return `rgb(${red},${green},${blue})`;
 };
 
+
 const BarContainer = styled.div`
   text-align: center;
   background-color: #F3F3F3;

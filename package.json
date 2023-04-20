@@ -9,6 +9,7 @@
     "lint": "eslint . --ext ts,tsx"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.20.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
@@ -17,10 +18,12 @@
     "eslint-config-next": "13.2.3",
     "eslint-plugin-functional": "^5.0.5",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "fputils": "^1.2.10",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^5.3.9",
+    "supabase": "^1.50.4",
     "typescript": "5.0.3"
   },
   "devDependencies": {
