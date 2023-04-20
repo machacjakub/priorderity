@@ -42,6 +42,14 @@ export const activities: IActivityAttributes[] = [
 		realization: null
 	},
 	{
+		type: 'sauna',
+		physical: {points: 15, duration: 50},
+		mental: {points: 10, duration: 24},
+		social: null,
+		career: null,
+		realization: null
+	},
+	{
 		type: 'call-ba',
 		physical: null,
 		mental: {points: 5, duration: 20},

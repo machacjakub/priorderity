@@ -24,10 +24,11 @@ const BarContainer = styled.div`
 `;
 
 export const Bar = ( {title, percentage}: IProps ) => {
+	const realPercentage = percentage > 100 ? 100 : percentage;
 	return (
 		<BarContainer>
 			<Space size={20}>
-				<Progress size={120} type="circle" percent={percentage} strokeColor={getColor( percentage )}/>
+				<Progress size={120} type="circle" percent={percentage} strokeColor={getColor( realPercentage )}/>
 			</Space>
 			<Typography.Text
 				style={{textAlign: 'center', display: 'block', marginTop: '20px'}}>{title}</Typography.Text>
