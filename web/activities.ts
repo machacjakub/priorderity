@@ -3,7 +3,7 @@ import {IActivityAttributes} from "@/web/types";
 export const activities: IActivityAttributes[] = [
 	{
 		type: '15-yoga',
-		physical: {points: 10, duration: 8},
+		physical: {points: 20, duration: 24},
 		mental: {points: 5, duration: 24},
 		social: null,
 		career: null,
@@ -11,23 +11,23 @@ export const activities: IActivityAttributes[] = [
 	},
 	{
 		type: '50-yoga',
-		physical: {points: 30, duration: 24},
-		mental: {points: 20, duration: 24},
+		physical: {points: 45, duration: 60},
+		mental: {points: 15, duration: 36},
 		social: null,
 		career: null,
 		realization: {points: 15, duration: 24}
 	},
 	{
 		type: '30-ex',
-		physical: {points: 33, duration: 36},
-		mental: {points: 20, duration: 24},
+		physical: {points: 45, duration: 60},
+		mental: {points: 20, duration: 36},
 		social: null,
 		career: null,
 		realization: null
 	},
 	{
 		type: '10-ex',
-		physical: {points: 15, duration: 12},
+		physical: {points: 20, duration: 24},
 		mental: {points: 10, duration: 24},
 		social: null,
 		career: null,
@@ -35,25 +35,33 @@ export const activities: IActivityAttributes[] = [
 	},
 	{
 		type: '1-ex',
-		physical: {points: 5, duration: 1},
-		mental: {points: 4, duration: 1},
+		physical: {points: 5, duration: 12},
+		mental: {points: 4, duration: 10},
 		social: null,
 		career: null,
 		realization: null
 	},
 	{
 		type: 'sauna',
-		physical: {points: 15, duration: 50},
-		mental: {points: 10, duration: 24},
+		physical: {points: 40, duration: 50},
+		mental: {points: 8, duration: 36},
 		social: null,
 		career: null,
 		realization: null
 	},
 	{
-		type: 'call-ba',
+		type: 'call-ongba',
 		physical: null,
 		mental: {points: 5, duration: 20},
-		social: {points: 20, duration: 500},
+		social: {points: 12, duration: 500},
+		career: null,
+		realization: {points: 10, duration: 200}
+	},
+	{
+		type: 'ongba',
+		physical: null,
+		mental: {points: 5, duration: 20},
+		social: {points: 20, duration: 2000},
 		career: null,
 		realization: {points: 10, duration: 200}
 	},
@@ -61,7 +69,15 @@ export const activities: IActivityAttributes[] = [
 		type: 'call-bome',
 		physical: null,
 		mental: {points: 5, duration: 20},
-		social: {points: 30, duration: 72},
+		social: {points: 20, duration: 72},
+		career: null,
+		realization: null
+	},
+	{
+		type: 'bome',
+		physical: null,
+		mental: {points: 5, duration: 20},
+		social: {points: 20, duration: 480},
 		career: null,
 		realization: null
 	},
@@ -92,7 +108,7 @@ export const activities: IActivityAttributes[] = [
 	{
 		type: '1-zazen',
 		physical: null,
-		mental: {points: 5, duration: 8},
+		mental: {points: 10, duration: 24},
 		social: null,
 		career: null,
 		realization: {points: 1, duration: 50}
@@ -100,7 +116,7 @@ export const activities: IActivityAttributes[] = [
 	{
 		type: '15-zazen',
 		physical: null,
-		mental: {points: 15, duration: 12},
+		mental: {points: 30, duration: 48},
 		social: null,
 		career: null,
 		realization: {points: 2, duration: 50}
@@ -108,7 +124,7 @@ export const activities: IActivityAttributes[] = [
 	{
 		type: '30-zazen',
 		physical: null,
-		mental: {points: 40, duration: 24},
+		mental: {points: 50, duration: 120},
 		social: null,
 		career: null,
 		realization: {points: 3, duration: 150}
@@ -143,6 +159,6 @@ export const activities: IActivityAttributes[] = [
 		mental: null,
 		social: null,
 		career: null,
-		realization: {points: 10, duration: 40}
+		realization: {points: 15, duration: 50}
 	},
 ];
