@@ -50,6 +50,14 @@ export const activities: IActivityAttributes[] = [
 		realization: null
 	},
 	{
+		type: 'otuzovani',
+		physical: {points: 10, duration: 24},
+		mental: {points: 4, duration: 24},
+		social: null,
+		career: null,
+		realization: null
+	},
+	{
 		type: 'call-ongba',
 		physical: null,
 		mental: {points: 5, duration: 20},
@@ -124,7 +132,7 @@ export const activities: IActivityAttributes[] = [
 	{
 		type: '30-zazen',
 		physical: null,
-		mental: {points: 50, duration: 120},
+		mental: {points: 50, duration: 175},
 		social: null,
 		career: null,
 		realization: {points: 3, duration: 150}
@@ -160,5 +168,27 @@ export const activities: IActivityAttributes[] = [
 		social: null,
 		career: null,
 		realization: {points: 15, duration: 50}
+	},
+	{
+		type: 'denik',
+		physical: null,
+		mental: {points: 10, duration: 150},
+		social: null,
+		career: null,
+		realization: {points: 5, duration: 150}
+	}, {
+		type: 'terapie',
+		physical: null,
+		mental: {points: 5, duration: 500},
+		social: null,
+		career: null,
+		realization: {points: 4, duration: 300}
+	}, {
+		type: 'prochazka',
+		physical: {points: 10, duration: 24},
+		mental: {points: 8, duration: 50},
+		social: null,
+		career: null,
+		realization: {points: 5, duration: 24}
 	},
 ];

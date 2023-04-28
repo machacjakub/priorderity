@@ -1,4 +1,4 @@
-import { IDoneActivity} from "@/web/types";
+import {IDoneActivity} from "@/web/types";
 
 export const getNewItemsFromPayload = ( items: IDoneActivity[], payload: { new: any, old: { id: number } } ): any[] => {
 	if ( JSON.stringify( payload.new ) === '{}' ) {
@@ -6,3 +6,5 @@ export const getNewItemsFromPayload = ( items: IDoneActivity[], payload: { new: 
 	}
 	return [...items, payload.new];
 };
+
+export const sortByDate = ( a: Date, b: Date ) => a > b ? -1 : 1;
