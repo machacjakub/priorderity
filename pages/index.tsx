@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/style.module.css';
 // import {Inter} from 'next/font/google';
-import {AppContainer} from '@/web/components/AppContainer';
+import {App} from '@/web/App';
 
 
 // const inter = Inter( {subsets: ['latin']} );
@@ -16,7 +16,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico"/>
 			</Head>
 			<main className={styles.main}>
-				<AppContainer/>
+				<App/>
 			</main>
 		</>
 	);

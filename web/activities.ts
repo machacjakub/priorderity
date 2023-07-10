@@ -69,7 +69,7 @@ export const activities: IActivityAttributes[] = [
 		type: 'call-ongba',
 		physical: null,
 		mental: {points: 5, duration: 20},
-		social: {points: 12, duration: 500},
+		social: {points: 8, duration: 500},
 		career: null,
 		realization: {points: 8, duration: 200}
 	},
@@ -77,7 +77,7 @@ export const activities: IActivityAttributes[] = [
 		type: 'ongba',
 		physical: null,
 		mental: {points: 5, duration: 20},
-		social: {points: 20, duration: 2000},
+		social: {points: 15, duration: 2000},
 		career: null,
 		realization: {points: 12, duration: 200}
 	},
@@ -85,7 +85,7 @@ export const activities: IActivityAttributes[] = [
 		type: 'call-bome',
 		physical: null,
 		mental: {points: 5, duration: 20},
-		social: {points: 20, duration: 72},
+		social: {points: 10, duration: 72},
 		career: null,
 		realization: null
 	},
@@ -93,7 +93,7 @@ export const activities: IActivityAttributes[] = [
 		type: 'bome',
 		physical: null,
 		mental: {points: 5, duration: 20},
-		social: {points: 20, duration: 480},
+		social: {points: 16, duration: 480},
 		career: null,
 		realization: null
 	},
@@ -101,7 +101,7 @@ export const activities: IActivityAttributes[] = [
 		type: 'sth-for-han',
 		physical: null,
 		mental: {points: 6, duration: 24},
-		social: {points: 30, duration: 48},
+		social: {points: 20, duration: 48},
 		career: null,
 		realization: null
 	},
@@ -109,7 +109,7 @@ export const activities: IActivityAttributes[] = [
 		type: 'friends',
 		physical: null,
 		mental: {points: 8, duration: 24},
-		social: {points: 20, duration: 72},
+		social: {points: 16, duration: 80},
 		career: null,
 		realization: null
 	},

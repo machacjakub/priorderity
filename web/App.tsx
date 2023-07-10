@@ -1,7 +1,6 @@
-import {Activities} from "./Activities";
-import {HealthBars} from "./HealthBars";
+import {Activities} from "./components/Activities";
+import {HealthBars} from "./components/HealthBars";
 import styled from "styled-components";
-import {ReccomendedActivitiesList} from "./ReccomendedActivitiesList";
 import {useEffect, useState} from "react";
 import {supabase} from "@/database/supabaseClient";
 import {getDatabaseOperations} from "@/database/databaseOperation";
@@ -9,6 +8,7 @@ import {Nullable} from "fputils";
 import {LoadingOutlined} from "@ant-design/icons";
 import {IDoneActivity} from "@/web/types";
 import {getNewItemsFromPayload} from "@/web/utils";
+import {DoneActivitiesHistory} from "@/web/components/history/DoneActivitiesHistory";
 
 const Wrapper = styled.div`
   display: grid;
@@ -41,7 +41,7 @@ const Content = styled.div`
 const database = getDatabaseOperations();
 
 
-export const AppContainer = () => {
+export const App = () => {
 	const [activities, setActivities] = useState<Nullable<IDoneActivity[]>>( [] );
 	const [loading, setLoading] = useState( true );
 	useEffect( () => {
@@ -86,7 +86,7 @@ export const AppContainer = () => {
 	return ( <>
 		<Wrapper>
 			<Sidebar>
-				<ReccomendedActivitiesList recommended={activities}/>
+				<DoneActivitiesHistory recommended={activities}/>
 			</Sidebar>
 			<Heading>
 				<HealthBars doneActivities={activities}/>

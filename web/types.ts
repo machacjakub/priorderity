@@ -5,6 +5,7 @@ export interface IDoneActivity {
 }
 
 export interface IActivity {
+    id: number;
     created_at: Date;
     type: string;
 }

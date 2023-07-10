@@ -3,11 +3,20 @@ physcl health = 60 velke cviceni, 20 male cviceni, 5 holeni, 10 8h spanku
 career        = 50 programing, 50 kariera/cteni
 relationships = 20 babicka, 30 nasi, 20 kamaradi, 30 han
 realization   = 20 cteni, 20 yoga taichi, 20 programovani
+!!! pozor jen orientacni
 
 
 
 BDD:
-Chci    mit moznost kliknout na prave provedenou aktivitu a nastavit jeji delku
 Chci    mit moznost videt nabidku doporucenych aktivit
     a   mit moznost kliknout na aktivitu a tim ji oznacit za provedenou
 Chci    mit moznost otevrit si postranni panel a podivat se na historii mych cinnosti
+
+TO-DO:
+ - obalit cinnosti na postrannim panelu dnama (divem ktery bude znamenat 1 den)
+ - moznost zobrazit celou historii (nejaky drawer)
+ - pridat nove cinnosti na ten ted, priradit jim hodnoty pro jednotlive kategorie
+ - zobrazit doporucene cinnosti v nejakem poradi
+
+
+ DONE:
